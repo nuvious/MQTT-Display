@@ -12,7 +12,6 @@
 - Install TFT and Button Libraries by searching for them in Sketch > Include Library > Manage Libraries
 
   - [TFT_eSPI Library](https://github.com/Bodmer/TFT_eSPI)
-  - [Button2 Library](https://github.com/LennartHennigs/Button2)
   - [PubSubClient](https://pubsubclient.knolleary.net/)
 
 - Edit %USERPROFILE%\Documents\Arduino\libraries\TFT_eSPI\User_Setup_select.h and comment out `#include <User_Setup.h>` and add the line `#include <User_Setups/TTGO_T_Display.h>`.

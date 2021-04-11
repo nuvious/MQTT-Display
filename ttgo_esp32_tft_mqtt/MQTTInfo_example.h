@@ -1,3 +1,4 @@
+/*
 const char* WIFI_SSID = "Wifi SSID";           
 const char* WIFI_PASSWORD = "wifi_password";
 const char* MQTT_HOST = "MQTT IP Address";
@@ -11,3 +12,4 @@ const char* MQTT_PASSWORD = "mqtt_password";
 
 // LED Pin
 const int OUTPUT_PIN = 4;
+*/

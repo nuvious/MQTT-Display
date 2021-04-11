@@ -12,4 +12,5 @@ const char* MQTT_PASSWORD = "mqtt_password";
 
 // LED Pin
 const int OUTPUT_PIN = 4;
+const char* MQTT_DISPLAY_OFF = "off";
 */

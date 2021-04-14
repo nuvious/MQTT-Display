@@ -24,6 +24,10 @@ You'll need a PWM buzzer of some kind; either 3.3v or 5v (See comments in .h fil
 
 Solder the VCC wire to the 5v or 3.3v source on the TTGO T-Display, ground wire to the most convenient ground, and the IN or I/O (may vary based on what you buy) to the GPIO pin of choice.
 
+## Libraries
+
+In addition to the libraries required in the root project [README](../../README.md), you'll need to install the [Button2](https://www.arduino.cc/reference/en/libraries/button2/) library by searching for it under Sketch > Include Library > Additional Libraries.
+
 ## Deploy Example
 
 - Copy `MQTTCallback_buzzer.cpp` to the `ttgo_t-display_mqtt` folder and rename it to `MQTTCallback.cpp.`

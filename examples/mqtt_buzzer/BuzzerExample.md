@@ -20,9 +20,7 @@ An example implementation is to use a Node-Red flow, python script running on a 
 
 You'll need a PWM buzzer of some kind; either 3.3v or 5v (See comments in .h file for pin settings). For my implementation I used a YUROBOT buzzer module which is a 5v buzzer. I used GPIO 27 to keep the wires on one side and if you are using a 3.3v buzzer you'll likely want to switch to GPIO 12.
 
-<div style="position:absolute,left:50%,margin-left:-100px>
-<img src="buzzer.jpg" alt="Buzzer Module" width="100" height="100">
-</div>
+![Buzzer Module](buzzer.jpg "Buzzer Module")
 
 Solder the VCC wire to the 5v or 3.3v source on the TTGO T-Display, ground wire to the most convenient ground, and the IN or I/O (may vary based on what you buy) to the GPIO pin of choice.
 

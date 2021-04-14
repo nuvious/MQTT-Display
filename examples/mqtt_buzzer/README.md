@@ -6,7 +6,7 @@ This is a simple implementation that incorporates a buzzer into the TTGO T-Displ
 
 The example will listen to the MQTT topic defined in MQTTInfo.h.
 
-If the MQTT payload isn't 'snooze' or 'off' it will sound the buzzer, turn on the display and turn on the TFT backlight.
+If the MQTT payload isn't 'snooze' or 'off' it will sound the buzzer, turn on the display, display the payload on the display (ex "WAKE UP"), and turn on the TFT backlight.
 
 If either of the TTGO T-Display buttons is pressed and released, the buzzer is silenced, the display is shut off, and the module publishes 'snooze' to the MQTT topic. This is to signal other buzzers to shut off as well.
 

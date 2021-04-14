@@ -14,4 +14,4 @@ This should be a quick and easy startup for this module. Contributions appreciat
 
 ## Example Implementations
 
-- [MQTT-Buzzer](examples/mqtt_buzzer/BuzzerExample.md) Use a 3.3v or 5v buzzer attached to the TTGO T-Display to create an IOT alarm buzzer for morning wakeup, general alerts, etc.
+- [MQTT-Buzzer](examples/mqtt_buzzer/README.md) Use a 3.3v or 5v buzzer attached to the TTGO T-Display to create an IOT alarm buzzer for morning wakeup, general alerts, etc.

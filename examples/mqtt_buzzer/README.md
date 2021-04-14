@@ -26,7 +26,7 @@ Solder the VCC wire to the 5v or 3.3v source on the TTGO T-Display, ground wire 
 
 ## Libraries
 
-In addition to the libraries required in the root project [README](../../README.md), you'll need to install the [Button2](https://www.arduino.cc/reference/en/libraries/button2/) library by searching for it under Sketch > Include Library > Additional Libraries.
+In addition to the libraries required in the root project [README](../../README.md), you'll need to install the [Button2](https://www.arduino.cc/reference/en/libraries/button2/) library by searching for it under Sketch > Include Library > Manage Libraries.
 
 ## Deploy Example
 

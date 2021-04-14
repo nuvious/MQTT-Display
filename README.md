@@ -15,3 +15,4 @@ This should be a quick and easy startup for this module. Contributions appreciat
 ## Example Implementations
 
 - [MQTT-Buzzer](examples/mqtt_buzzer/README.md) Use a 3.3v or 5v buzzer attached to the TTGO T-Display to create an IOT alarm buzzer for morning wakeup, general alerts, etc.
+- [MQTT-Crypto](examples/mqtt_crypto/README.md) Queries a free cyrptocurrency price API, displays the price of the selected cryptocurrency on the display and also publishes the price to an MQTT topic in the format of MQTT_TOPIC/SYMBOL (ex 'esp32/crypto/eth').
